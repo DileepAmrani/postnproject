@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>signIn</title>
+    <link rel="stylesheet" href="../css/signin.css">
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-auth.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBzY7qMRr60nfGL7D_PAWzi0rEbXqOMSQI",
+    authDomain: "fir-auth-post-creater.firebaseapp.com",
+    databaseURL: "https://fir-auth-post-creater.firebaseio.com",
+    projectId: "fir-auth-post-creater",
+    storageBucket: "fir-auth-post-creater.appspot.com",
+    messagingSenderId: "1078171440697",
+    appId: "1:1078171440697:web:1dfdbeb0dc13e2de"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    
+</head>
+
+<body>
+    <div id="header">
+        <img src="logo.png" alt="" width="70px" style="margin-left: 1%">
+        <button id="logoutbtn">
+            <img src="../images/Deafult-Profile-Pitcher.png" alt="log Out" width="30px" id="logout">
+        </button>
+    </div>
+    <center>
+    <div id="signinBox">
+        <div id="signinBox1">
+            <img src="../images/download.png" alt=""  id="signinIcon">
+            <input type="text"  class="Signininput" placeholder="Email Address" id="emailAddress"><br>
+            <input type="password"  class="Signininput" placeholder="Password" id="password"><br>
+        </div>
+            <button id="signinBtn">Sign In</button>
+    </div>
+</center>
+</body>
+<script src="../js/signIn.js"></script>
+</html>

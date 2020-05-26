@@ -1,0 +1,49 @@
+/* header */
+#header{
+    height: 50px;
+    background-color: #0074D9;
+}
+#logoutbtn{
+    float: right;
+    margin-top: 0.5%;
+    background-color: #0074D9;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-right: 1%;
+}
+/* signup box */
+#signupBox{
+    margin-top: 40px;
+    border: 2px solid #0074D9;
+    height: 500px;
+    width: 380px;
+    border-radius: 10px;
+}
+#signupBox1{
+    background-color: rgb(159, 203, 241);
+    height: 400px;
+    border-radius: 0px 0px 100px 100px
+}
+#signupIcon{
+    border-radius: 360px;
+    width: 100px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.Signupinput{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+#signUpBtn{
+    background-color: #0074D9;
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-top: 10px;
+     cursor: pointer;
+
+}
